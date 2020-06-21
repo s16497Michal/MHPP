@@ -70,6 +70,7 @@ def goal_function(solution):
 
 def brute_force_met(pattern):
     np_arr = np.array(pattern)
+    score = 0
     arr_to_check = np.array(0)
     length_pattern = len(np_arr)
     current_col = 0
@@ -86,6 +87,9 @@ def brute_force_met(pattern):
             current_col += 1
         else:
             sol += 1
+            score += 1
+        
+    print("Iterations in Brute Force: " + str(score))
         
     return arr_to_check
 
