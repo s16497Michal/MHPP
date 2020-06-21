@@ -15,7 +15,6 @@ TODO
 
 - dokonczyc randomowe generowanie jsona z przykladem do rozwiazania
 - brute force powinien działać na wszystkich rozwiązaniach 
-- zliczać iteracje w brute forceie 
 
 '''
 #def generate_random_example_to_json(numbers, rang):
